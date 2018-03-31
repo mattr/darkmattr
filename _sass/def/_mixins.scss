@@ -1,0 +1,16 @@
+@mixin reset() {
+  margin: 0;
+  padding: 0;
+  clear: both;
+  height: auto;
+  width: 100%;
+  display: initial;
+};
+
+@mixin border($thickness: 1px, $style: solid, $color: $border-color) {
+  border: $thickness $style $border-color;
+}
+
+@mixin box-shadow() {
+
+}

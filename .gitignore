@@ -3,3 +3,9 @@
 .sass-cache
 _site
 Gemfile.lock
+
+# Ignore files used for testing the layout
+index.html
+post.html
+_config.yml
+_posts

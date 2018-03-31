@@ -1,5 +1,12 @@
 ---
 layout: default
 ---
-
-{{ content }}
+<article class="post">
+  <header>
+    <h2>{{ post.title }}</h2>
+    <div class="meta">
+      <datetime>{{ post.publish_date }}</datetime>
+    </div>
+  </header>
+  {{ content }}
+</article>

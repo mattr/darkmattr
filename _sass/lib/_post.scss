@@ -1,0 +1,8 @@
+article.post {
+  @include border();
+  @include box-shadow();
+  max-width: rem-calc(600px);
+  margin: auto;
+  margin-top: $margin;
+  background: colour(darkgrey);
+}

@@ -1,0 +1,21 @@
+$size: 1rem !default;
+$margin: $size !default;
+$padding: $size !default;
+$font-size: $size !default;
+$font-family: 'Roboto', sans-serif;
+$normal-font-weight: 300;
+$bold-font-weight: 500;
+
+$palette: (
+  black: #202020,
+  white: #fdfdfd,
+  grey: #6e6e6e,
+  darkgrey: #393939,
+  green: green,
+  red: red
+);
+
+$background: map-get($palette, black);
+$foreground: map-get($palette, white);
+$border-color: map-get($palette, grey);
+$success: map-get($palette, green);

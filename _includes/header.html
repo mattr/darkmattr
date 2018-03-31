@@ -1,0 +1,16 @@
+<header class="header container">
+  <h1><a href="{{site.url }}">{{ site.title }}</a></h1>
+  <div class="menu">
+      {% for item in site.data.navigation %}
+        <a class="item" href="{{ item.url }}">{{ item.title }}</a>
+        {% if item != site.data.navigation.last %}
+        <div class="divider"></div>
+        {% endif %}
+      {% endfor %}
+    <!-- <a class="item" href="/">Home</a>
+    <div class="divider"></div>
+    <a class="item" href="/about/">About</a>
+    <div class="divider"></div>
+    <a class="item" href="/archive/">Archive</a> -->
+  </div>
+</header>
