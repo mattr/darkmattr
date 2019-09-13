@@ -15,7 +15,8 @@ $palette: (
   red: red
 );
 
-$background: map-get($palette, black);
+// $background: map-get($palette, black);
+$background: colour(black);
 $foreground: map-get($palette, white);
 $border-color: map-get($palette, grey);
 $success: map-get($palette, green);
